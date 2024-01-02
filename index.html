@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Manual do Git</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap"
+        rel="stylesheet">
+    <title>Manual do Git de Forma Prática</title>
 </head>
+
 <body>
-    
-    <h2>Comandos iniciais do Git</h2>
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">Manual do Git</a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#instalacao">Instalação</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#criacao">Criação</a></li>
+                    <li><a href="#outros">Outros Comandos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <p><b>git --global user.name: </b> criação do seu main/usuário. </p>
-    <p><b>git --global user.email:</b> criação do email que se quer usar como main/usuário.</p>
-    <p><b>git init:</b> primeiro comando dentro da pasta para o inicio do repositório.</p>
-    <p><b>git add "nome do arquivo":</b> comando para a adição de arquivos novos ou modificados no repositório.</p>
-    <p><b>git commit -m "nome do status da criação ou modificação no arquivo":</b> para deixar marcado no histórico do git dos seus passos a cada criação de arquivos ou modificação nos mesmos.</p>
-    <p><b>git remote add origin main "link do github":</b> trazer para o git o link do repositório criado no github. </p>
-    <p><b>git push origin main:</b> levar para o github todo o seu arquivo e suas modificações descritas através dos commits.</p>
+    <section class="insta">
+        <h2>Instalação</h2>
+        <p>
+            <a href="https://git-scm.com/download/mac">Baixe o git para o OSX</a>
+            <a href="https://git-scm.com/download/win">Baixe o git para o Windows</a>
+            <a href="https://git-scm.com/download/linux">Baixe o git para o Linux</a>
+        </p>
+    </section>
 
-    <h2>Comandos úteis e práticos</h2>
 
-    <p><b>git status:</b> o andamento e status do seu arquivo para se situar bem.</p>
-    <p><b>git remote -v:</b> no caso de ter dúvida de qual usuário está conectado no git.</p>
-    <p><b>git pull:</b> para trazer através do github um repositório e seus commits com atualizações.</p>
-    <p><b>git clone:</b> para trazer através do github um repositório do zero em um local novo. </p>
+    <div class="inicio-texto">
+        <h2>Comandos iniciais Git</h2>
+        <div class="comandos-inicio">
 
+            <h3>
+                <div class="destaque">git --global user.name</div> criação do nome do main/usuário.
+                <div class="destaque">git --global user.email</div> criação do email do main/usuário.
+                <div class="init">git.init</div> dentro da pasta esse comando criará o repositório.
+            </h3>
+        </div>
+
+    </div>
+
+<section class="criacao">
+    <div class="comandos">
+        <h2>Comandos de criação Git</h2>
+        <h3>
+        <div class="add">git.add"nome do arquivo"</div> comando para adição dos arquivos recém criados ou
+        modificados dentro do
+        repositório.
+        <div class="add-total">git add.</div> adiciona de uma só vez todos os arquivos ou modificações por um só
+        comando.
+        <div class="commit">git commit -m "comentários da alteração"</div> para
+        deixar marcados todas as modificações feitas no seu arquivo através dos commits.
+        <div class="remote">git remote add origin main "link do repositório criado no github"</div> trazer
+        para o git o repositório também criado no github e mandar os arquivos para o hub.
+        <div class="push">git push origin main</div> leva para o github todas as modificações feitas no seu
+        arquivo através dos seus commits.
+    </h3>
+    </div>
+    </section>
 
 </body>
+
 </html>

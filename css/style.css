@@ -1,0 +1,232 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 1100px;
+}
+
+:root {
+    --Background-blue-dark: #122ab2;
+    --Background-blue-Bright: #2c70ff;
+    --Background-Gray-soft: #f7f7f7;
+    --BG-Purple: #ae81ff;
+    --BG-Pink: #f9265e;
+    --BG-blue: #66d9eb;
+    --BG-purple-soft: #512DE0;
+    --BG-violet-bright: #932DE0;
+    --BG-pink-bright: #D42DE0;
+    --Color-gray-Soft: #a4a4a4;
+    --Color-gray-Strong: #7c7c7c;
+    --Color-Black-Bright: #222222;
+}
+
+.menu-bg {
+    padding: 15px 0;
+    background-color: var(--BG-Pink);
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-logo a {
+    font-weight: bold;
+    font-size: 2.25em;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+/* INSTALAÇÃO */
+
+.insta {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #D8D1E3;
+    border-bottom: 3px solid var(--BG-purple-soft);
+}
+
+.insta h2 {
+    font-size: 50px;
+    margin: 0px 80px;
+    text-align: center;
+}
+
+.insta p {
+    width: 960px;
+    margin: 60px auto;
+    line-height: 200%;
+    color: #000;
+    text-align: center;
+}
+
+
+.insta a {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 40px auto;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* COMANDOS */
+
+/* INICIO */
+
+.inicio-texto {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #D8D1E3;
+    border-bottom: 3px solid var(--BG-purple-soft);
+    text-align: center;
+}
+
+.inicio-texto h2 {
+    font-size: 50px;
+    margin: 0px 80px;
+    text-align: center;
+}
+
+
+.destaque {
+    color: #fff;
+    font-size: 25px;
+    width: 280px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.init {
+    color: #fff;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    padding: 20px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.comandos-inicio h3 {
+    font-size: 20px;
+    width: 960px;
+    font-weight: 500;
+    margin: 40px auto;
+    line-height: 200%;
+    color: #000;
+    text-align: center;
+}
+
+/* COMANDOS USUAIS */
+
+.criacao {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #D8D1E3;
+    border-bottom: 3px solid var(--BG-purple-soft);
+    text-align: center;
+}
+.comandos h2 {
+    font-size: 50px;
+    margin: 0px 80px;
+    text-align: center;
+}
+
+.add {
+    color: #fff;
+    font-size: 25px;
+    width: 340px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.add-total {
+    color: #fff;
+    font-size: 25px;
+    width: 120px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.commit {
+    color: #fff;
+    font-size: 25px;
+    width: 525px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.remote {
+    color: #fff;
+    font-size: 25px;
+    width: 760px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.push {
+    color: #fff;
+    font-size: 25px;
+    width: 280px;
+    height: 40px;
+    padding: 50px auto;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--BG-violet-bright);
+    border-radius: 10px;
+}
+
+.comandos h3 {
+    font-size: 20px;
+    width: 960px;
+    font-weight: 500;
+    margin: 40px auto;
+    line-height: 200%;
+    color: #000;
+    text-align: center;
+}
